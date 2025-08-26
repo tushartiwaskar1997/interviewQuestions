@@ -10,3 +10,8 @@ Some of the interview questions I’ve been asked recently:
 9. What’s the difference between horizontal scaling and vertical scaling, and when would you pick one over the other?
 10. If you had to optimize a query that’s suddenly scanning millions of rows, what’s your step-by-step approach?
 I found these way more interesting than the usual “explain OOP principles” type of questions. What’s the toughest or most unexpected interview question you’ve ever had?
+
+
+Explain the difference between `CompletableFuture` and `FutureTask` in Java. When would you choose one over the other?
+2. *Spring/Hibernate:* Describe how you would implement a read-mostly cache using Spring and Hibernate, ensuring data consistency and minimizing database load.
+3. *Multithreading/AWS:* You have a Java application running in AWS that processes messages from an SQS queue. The processing is CPU-intensive. How would you design the application to maximize throughput, ensure fault tolerance, and handle scaling under heavy load? Consider multithreading and AWS services.
