@@ -1,0 +1,12 @@
+Some of the interview questions I’ve been asked recently:
+1. If your service suddenly slows down in production, how do you find out whether the bottleneck is in the database, the network, or the JVM itself?
+2. Imagine you have a Kafka consumer that’s lagging badly. How would you debug and fix it?
+3. When would you use a HashMap over a ConcurrentHashMap, and what hidden issues might appear?
+4. How would you design caching for a system where data changes every few seconds?
+5. Can you explain how CompletableFuture actually schedules tasks under the hood?
+6. What’s the tradeoff between using @Transactional at the service layer vs. at the repository layer?
+7. Suppose two microservices need to stay in sync but one fails mid-request. How do you guarantee consistency?
+8. How would you implement rate limiting in a distributed system?
+9. What’s the difference between horizontal scaling and vertical scaling, and when would you pick one over the other?
+10. If you had to optimize a query that’s suddenly scanning millions of rows, what’s your step-by-step approach?
+I found these way more interesting than the usual “explain OOP principles” type of questions. What’s the toughest or most unexpected interview question you’ve ever had?
