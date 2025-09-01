@@ -57,6 +57,49 @@ Explain the difference between `CompletableFuture` and `FutureTask` in Java. Whe
 2️⃣9️⃣ Explain API Gateway + Service Mesh (Istio/Linkerd) usage for enterprise-grade microservices.
 3️⃣0️⃣ How do you enforce idempotency in financial transactions APIs?
 
+==========================================================================================================================================
+🔥 30 Recent Interview Questions in Product-Based Companies (Backend – Java)
+
+🟦 Core Java
+1️⃣ Difference between ==, .equals(), and .compareTo().
+ 2️⃣ How does HashMap handle collisions in Java 8?
+ 3️⃣ HashMap vs ConcurrentHashMap vs Hashtable — which one in a multi-threaded cache system?
+ 4️⃣ Volatile vs synchronized vs Atomic classes — when to use each?
+ 5️⃣ ThreadLocal — what is it and real-world use case?
+ 6️⃣ Virtual Threads (Java 21) vs Platform Threads.
+
+🟩 Spring & Spring Boot
+7️⃣ Difference between @Component, @Service, and @Repository.
+ 8️⃣ How does Spring Boot auto-configuration work internally?
+ 9️⃣ @Transactional — how does Spring handle transaction management?
+ 🔟 Lazy vs Eager loading in Hibernate — when to prefer each?
+ 1️⃣1️⃣ What is the N+1 query problem in JPA/Hibernate? How to fix it?
+ 1️⃣2️⃣ How do you secure REST APIs with JWT/OAuth2 in Spring Boot?
+
+🟨 Microservices
+1️⃣3️⃣ REST vs gRPC vs Kafka — which one would you pick & why?
+ 1️⃣4️⃣ Role of API Gateway (Zuul vs Spring Cloud Gateway).
+ 1️⃣5️⃣ CAP theorem in microservices — practical example.
+ 1️⃣6️⃣ Saga Pattern vs Two-Phase Commit.
+ 1️⃣7️⃣ Circuit Breaker (states & Resilience4j).
+ 1️⃣8️⃣ How do you achieve observability (logs, metrics, tracing)?
+
+🟦 Apache Kafka
+1️⃣9️⃣ Kafka topic vs queue — difference.
+ 2️⃣0️⃣ How does Kafka ensure ordering of messages?
+ 2️⃣1️⃣ At-least-once vs Exactly-once semantics in Kafka.
+ 2️⃣2️⃣ Kafka partitions & consumer groups — how do they scale?
+ 2️⃣3️⃣ Kafka producer acks (0, 1, all).
+ 2️⃣4️⃣ Dead-letter topic in Kafka — why and how?
+
+🟥 System Design
+2️⃣5️⃣ Design an Order Management System that handles 10K+ orders/sec.
+ 2️⃣6️⃣ Design a URL shortener like bit.ly.
+ 2️⃣7️⃣ Design a Notification Service (Email/SMS/Push).
+ 2️⃣8️⃣ How to design a Rate Limiter for APIs?
+ 2️⃣9️⃣ API Gateway vs Load Balancer — role in system design.
+ 3️⃣0️⃣ Database Sharding & Replication in large-scale systems.
+=========================================================================================================================================
 
 
 ============================================================================================================================================
