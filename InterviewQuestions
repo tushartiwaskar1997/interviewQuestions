@@ -100,7 +100,57 @@ Explain the difference between `CompletableFuture` and `FutureTask` in Java. Whe
  2️⃣9️⃣ API Gateway vs Load Balancer — role in system design.
  3️⃣0️⃣ Database Sharding & Replication in large-scale systems.
 =========================================================================================================================================
+1+ years 
+1. what is String.
+2. what is list.
+3. what is difference between list and arrayList.
+4. what is the string and string-buffer.
+5. controller and rest controller difference.
+6. sql -> second highest salary.
+7. what is Integer and int. why wrapper class where developed.
+8. collection and collections difference.
+9. how to delete element form array list.
+10. how to delete element from hashMap.
+11. how to iterater hashMap.
+12. sql -> aggrate function 
+13. difference between having and when.
+============================================================================================================================================
+ Senior Java Developer Interview Questions
 
+🔸Core Java & Advanced Concepts
+
+1. Difference between == and .equals() in Java?
+2. How does Garbage Collection work in Java? Explain different GC algorithms.
+3. What are Optional, Stream API, and how do they improve code readability?
+4. Explain volatile and synchronized. When would you use ReentrantLock?
+5. How would you design a thread-safe singleton?
+
+🔸Collections & Concurrency
+6. Difference between HashMap, LinkedHashMap, and TreeMap.
+7. What is ConcurrentHashMap and how does it achieve thread safety?
+8. Explain CopyOnWriteArrayList and its use cases.
+9. How does Java handle deadlock? How would you detect and prevent it?
+10. How would you implement a Producer-Consumer problem in Java?
+
+🔸Spring & Hibernate/JPA
+11. Difference between @Component, @Service, and @Repository.
+12. What is the N+1 select problem in Hibernate? How do you solve it?
+13. How does Spring handle dependency injection internally?
+14. What is lazy vs eager loading in JPA?
+15. How do you configure caching in Spring Boot applications?
+
+🔸Microservices & System Design
+16. How do services communicate in a microservices architecture?
+17. What is API Gateway and how would you implement it?
+18. How do you ensure fault tolerance in microservices?
+19. How do you design a scalable order management system?
+20. How do you secure REST APIs in Spring Boot?
+
+🔸Performance & Best Practices
+21. How would you tune JVM for high-performance applications?
+22. How do you profile and monitor a Java application in production?
+23. What are memory leaks in Java? How do you prevent them?
+24. How do you handle exceptions globally in Spring Boot?
+25. What coding practices do you follow to write clean and maintainable Java code?
 
 ============================================================================================================================================
-
