@@ -154,3 +154,34 @@ Explain the difference between `CompletableFuture` and `FutureTask` in Java. Whe
 25. What coding practices do you follow to write clean and maintainable Java code?
 
 ============================================================================================================================================
+
+Q: Is Java pass-by-value or pass-by-reference?** 
+A: Java is **pass-by-value only**. 
+
+👉 What does that mean? 
+- For **primitive types** (int, double, etc.), the actual value is passed directly. 
+- For **objects**, a copy of the reference is passed (still pass-by-value). The copy points to the same object. 
+
+👉 Why does it look like pass-by-reference? 
+- Because if you change the state of the object inside the method, it reflects outside (both references point to the same object). 
+- But if you reassign the reference inside the method, it won’t affect the original reference outside. 
+
+---
+
+**Q: Why are Comparable and Comparator interfaces required in Java?** 
+A: 
+- **Sorting primitives vs custom objects** 
+ `Arrays.sort()` works fine for primitives, but if you try sorting an array of custom objects (like Employee), it throws `ClassCastException`. 
+
+- **Why?** 
+ Because Java doesn’t know how to compare your custom objects unless you tell it how. 
+
+- **Solution:** 
+ - `Comparable` → implement `compareTo()` to define the **natural order** of objects. 
+ - `Comparator` → define custom sorting logic externally, allowing **multiple sorting strategies** for the same object type. 
+
+
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
