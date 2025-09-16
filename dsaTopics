@@ -1,0 +1,65 @@
+🔑 Most Important DSA Problem Patterns (Interview Repeats)
+If you master these, 80–90% of interview problems will feel familiar:
+
+1 .Array & Two Pointers
+Reverse Array, Rotate Array, Move Zeroes
+Two Sum, 3Sum, Container With Most Water
+Dutch National Flag (sort 0s,1s,2s)
+  
+2. Sliding Window
+Max Sum Subarray of Size K
+Longest Substring Without Repeating Characters
+Minimum Window Substring
+Longest Repeating Character Replacement
+  
+3. Hashing & Prefix Sum
+Subarray Sum Equals K
+Longest Consecutive Sequence
+Count Distinct Elements in Window
+Zero Sum Subarray
+  
+4. Stack / Monotonic Stack
+Valid Parentheses
+Next Greater Element
+Largest Rectangle in Histogram
+Trapping Rain Water
+  
+5. Recursion + Backtracking
+Subsets / Power Set
+Permutations
+N-Queens
+Rat in a Maze / Word Search
+
+6. Linked List
+Reverse Linked List
+Detect Cycle (Floyd’s algorithm)
+Merge Two Sorted Lists
+Intersection of Two Linked Lists
+
+7. Binary Trees / BST
+Traversals (Inorder, Preorder, Postorder, Level Order)
+Diameter of Tree
+Lowest Common Ancestor
+Validate BST
+
+8. Heap / Priority Queue
+Kth Largest Element
+Top K Frequent Elements
+Merge K Sorted Lists
+Median of Data Stream
+
+9. Dynamic Programming (DP Basics)
+Fibonacci / Climbing Stairs
+0/1 Knapsack
+Coin Change
+Longest Common Subsequence / Longest Palindromic Subsequence
+
+10. Graphs
+BFS / DFS Traversal
+Number of Islands
+Detect Cycle (Directed & Undirected)
+
+
+
+  
+Dijkstra’s Algorithm
