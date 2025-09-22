@@ -1,2 +1,62 @@
 =
 1. How to handel the meger confilits on brach. 
+
+
+==========================================================Docker===========================================================================
+
+📍Basic Level [ Docker ]
+
+1) These questions test foundational Docker knowledge.
+2) What is Docker and why is it used?
+3) What is the difference between a container and a virtual machine?
+4) What is a Dockerfile?
+5) What is the difference between COPY and ADD in a Dockerfile?
+6) What is a Docker image?
+7) What is a container?
+8) What is the Docker Hub?
+9) How do you create a Docker image?
+10) How do you start, stop, and remove a container?
+11) How is data persisted in Docker containers?
+12) What is the purpose of .dockerignore file?
+13) What command is used to list all running containers?
+14) What is the difference between docker run and docker start?
+15) What are volumes in Docker?
+16) What are environment variables and how do you pass them to containers?
+
+📍Intermediate Level [Docker ]
+
+17) These questions are typically for candidates with some real-world Docker experience.
+18) How do you optimize Dockerfile for smaller image size?
+19) What are multi-stage builds in Docker and why are they useful?
+20) What is the difference between bind mounts and volumes?
+21) What is the difference between an ENTRYPOINT and CMD in a Dockerfile?
+22) How can you share data between containers?
+23) How do you expose ports in a Docker container?
+24) Explain the concept of Docker networking.
+25) What are the different types of Docker networks?
+26) How does Docker Compose work and what are its key benefits?
+27) How do you define services in a docker-compose.yml file?
+28) How do you scale services using Docker Compose?
+29) How do you troubleshoot a non-starting container?
+30) What is a Docker context?
+31) How does the layer caching mechanism work in Docker builds?
+32) How do you handle secrets in Docker (e.g. passwords, tokens)?
+
+📍Advanced Level [ Docker ]
+
+33) These questions are aimed at experienced engineers or DevOps professionals.
+34) What is the difference between Docker Swarm and Kubernetes?
+35) How does Docker ensure container isolation?
+36) What are cgroups and namespaces in the context of Docker?
+37) How would you monitor Docker containers in production?
+38) What are the best practices for securing Docker containers?
+39) How do you deal with image vulnerabilities?
+40) Can you explain the lifecycle of a Docker container?
+41) What are the performance implications of using Docker?
+42) How do you implement CI/CD with Docker?
+43) What’s the difference between --link, user-defined bridge networks, and overlay networks?
+
+
+==============================================Docker-End===================================================================================
+
+
