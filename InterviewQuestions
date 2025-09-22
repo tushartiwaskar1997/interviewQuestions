@@ -182,6 +182,48 @@ A:
 
 
 ============================================================================================================================================
+1. What are the benefits of sealed classes introduced in Java 17? 
+2. How do virtual threads in Java 21 improve request handling in high-load systems? 
+3. What is the difference between Optional.map() and Optional.flatMap()? 
+4. How does garbage collection differ in Serial, Parallel, and G1 collectors? 
+5. How does var help with type inference in Java? 
+6. Explain the difference between CopyOnWriteArrayList and ArrayList. 
+7. What is the purpose of CompletableFuture in asynchronous programming? 
+8. How does pattern matching for switch improve readability in Java 17+? 
+9. What are text blocks, and how do they simplify working with JSON/XML? 
+10. Explain immutability and how to enforce it in Java. 
+
+🟦 Spring + Spring Boot 
+11. How does dependency injection work in Spring Framework? 
+12. What is the role of @Configuration and @Bean annotations? 
+13. How do you configure application properties for multiple environments in Spring Boot? 
+14. How do you secure Spring Boot REST APIs with JWT authentication? 
+15. Explain how Spring Boot manages embedded servers like Tomcat/Jetty. 
+16. How does Spring Boot Actuator help with monitoring and metrics? 
+17. How do you manage transaction propagation in Spring? 
+18. What is the difference between @ControllerAdvice and @ExceptionHandler? 
+19. How do you enable asynchronous method execution in Spring Boot? 
+20. How does Spring Boot integrate with cloud services (e.g., AWS S3, RDS)? 
+
+🟦 Microservices 
+21. How do you implement inter-service communication in microservices? 
+22. What is the difference between API Gateway and Service Mesh? 
+23. How do you handle eventual consistency in distributed systems? 
+24. How do you implement rate limiting in a microservices ecosystem? 
+
+🟦 Coding Questions 
+25. Write a program to check if a number is a palindrome without converting it to a string. 
+26. Implement a function to sort a stack using another stack. 
+27. Write a program to find the maximum sum subarray (Kadane’s algorithm). 
+
+🟨 Others 
+28. What is the difference between Kafka topics and partitions? 
+29. How do StatefulSets in Kubernetes differ from Deployments? 
+30. Write a SQL query to get the 2nd highest salary in a department. 
+31. What are readiness probes in Kubernetes, and how do they differ from liveness probes? 
+32. How do you implement request tracing across multiple microservices? 
+33. What is the difference between Docker volumes and bind mounts? 
+34. How do you implement rolling updates in Kubernetes?
 ============================================================================================================================================
 ============================================================================================================================================
 ============================================================================================================================================
