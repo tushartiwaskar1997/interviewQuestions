@@ -63,10 +63,20 @@ export AWS_SECRET_ACCESS_KEY=$(echo $CREDENTIALS | awk '{print $2}')
 export AWS_SESSION_TOKEN=$(echo $CREDENTIALS | awk '{print $3}')
 
 
+======================================= terraform to create s3 ===============================================================================                                                                                                                                                                                                     
+
+provider "aws" {
+  region = "ap-south-1"
+
+  assume_role {
+    role_arn     = "arn:aws:iam::631158448933:role/tf-role"
+    session_name = "terraform"
+  }
+}
 
 
 resource "aws_s3_bucket" "my_buckets" {
-  count = 1  # This will create 10 S3 buckets
+  count = 1 # This will create 10 S3 buckets
 
   bucket = "ryzen-tushark-${count.index}"
 
@@ -74,3 +84,5 @@ resource "aws_s3_bucket" "my_buckets" {
     Name = "S3 Bucket ${count.index}"
   }
 }
+
+======================================================================================================================                                                                                                                                                                                                     
