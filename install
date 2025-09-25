@@ -2,3 +2,62 @@ sudo yum install -y yum-utils
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 sudo yum -y install terraform
 terraform -help
+
+
+mkdir terraform  vim ec2.tf 
+
+provider "aws" {
+  region     = "ap-south-1"
+  access_key = "   nkhjhjhjhjhgjhgjhg77777777777777777777777777777777777777777777777777777"
+  secret_key = "WlJH4KPPh49VnZoBiXn8GAreOi3n+d4cMS+NKhmi"
+}
+resource "aws_instance" "new" {
+  count                  = length(var.instance-name)
+  ami                    = var.image_id   -----------------------------------------------
+  instance_type          = "t2.micro"
+  key_name               = aws_key_pair.deployer.key_name
+  vpc_security_group_ids = [aws_security_group.launch-wizard.id]
+
+  tags = {
+    Name = var.instance-name[count.index]
+  }
+}
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD3F6tyPEFEzV0LX3X8BsXdMsQz1x2cEikKDEY0aIj41qgxMCP/iteneqXSIFZBp5vizPvaoIR3Um9xK7PGoW8giupGn+EPuxIA4cDM4vzOqOkiMPhz5XK0whEjkVzTo4+S0puvDZuwIsdiW9mxhJc7tgBNL0cYlWSYVkz4G/fslNfRPW5mYAM49f4fhtxPb5ok4Q2Lg9dPKVHO/Bgeu5woMc7RY0p1ej6D4CKFE6lymSDJpW0YHX/wqE9+cfEauh7xZcG0q9t2ta6F6fmX0agvpFyZo8aFbXeUBr7osSCJNgvavWbM/06niWrOvYX2xwWdhXmXSrbX8ZbabVohBK41 email@example.com"
+}
+
+resource "aws_security_group" "launch-wizard" {
+  name = "wizard"
+}
+
+resource "aws_vpc_security_group_ingress_rule" "http" {
+  security_group_id = aws_security_group.launch-wizard.id
+  cidr_ipv4         = "0.0.0.0/0"
+  from_port         = 80
+  ip_protocol       = "tcp"
+  to_port           = 80
+}
+
+
+
+=====
+
+data "aws_ami" "amazon_linux" {
+ most_recent = true
+ filter {
+  name = "name"
+  value = ["amzn2-ami-hvm-*-x86_64-gp2"]
+  }
+ owners = ["137112412989"]
+}
+ami = data.aws_ami.amazon_linux.id          --------------------this is data block 
+
+
+
+
+
+--------empoer 
+export AWS_ACCESS_KEY_ID=$(echo $CREDENTIALS | awk '{print $1}')
+export AWS_SECRET_ACCESS_KEY=$(echo $CREDENTIALS | awk '{print $2}')
+export AWS_SESSION_TOKEN=$(echo $CREDENTIALS | awk '{print $3}')
