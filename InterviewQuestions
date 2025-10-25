@@ -270,4 +270,57 @@ A:
 
 
 ============================================================================================================================================
+
+ ➤ Core Java
+1. Explain the scalability challenges with ConcurrentHashMap under high contention and how to optimize it.
+2. How does the Java Memory Model (JMM) ensure visibility and ordering of operations in multi-core systems?
+3. Compare synchronized blocks vs StampedLock vs VarHandle for concurrency control.
+4. How do you debug and fix a memory leak in a production JVM?
+5. Explain differences between CMS, G1GC, and ZGC – when would you choose each in production?
+6. How would you design a high-throughput system using ForkJoinPool vs Virtual Threads (Project Loom)?
+7. Explain false sharing in multi-threading and how to avoid it.
+8. Difference between blocking queues and non-blocking (lock-free) data structures in Java.
+9. How do you implement a custom classloader for hot-reloading?
+10. How do you tune JVM for a low-latency trading-like system?
+
+ ➤ Spring Boot
+11. Explain how Spring Boot auto-configuration internally uses @ConditionalOnClass & @ConditionalOnMissingBean.
+12. How would you debug circular dependency issues in a large Spring Boot project?
+13. Explain how to secure a Spring Boot app using OAuth2 + JWT with key rotation.
+14. How to implement distributed caching with Redis Cluster and avoid cache stampede?
+15. What are Spring Cloud patterns for service-to-service authentication?
+16. Explain Reactive programming in Spring WebFlux vs traditional MVC.
+17. How do you enable backpressure handling in reactive pipelines?
+18. programmatic vs declarative transaction management – when to use which?
+19. How does Spring Boot manage bean lifecycle in Kubernetes (shutdown hooks, graceful termination)?
+20. How do you handle feature toggles in Spring Boot at scale?
+
+ ➤ JPA
+21. Explain pitfalls of using EAGER fetching in large domain models and how to redesign them.
+22. How does Hibernate’s dirty checking impact performance in batch operations?
+23. How would you tune Hibernate 2nd-level cache in a distributed environment?
+24. Explain how to handle schema evolution and migrations in microservices (Flyway/Liquibase).
+25. How would you implement sharding & partitioning strategies in JPA?
+
+ ➤ Microservices
+26. How would you implement a global distributed transaction across 10+ microservices?
+27. Compare Saga, CQRS, and Event Sourcing – when would you choose each at Walmart scale?
+28. How do you design multi-region microservices for Walmart’s Black Friday traffic?
+29. Explain API Gateway + Service Mesh (Istio/Linkerd) usage for enterprise-grade microservices.
+30. How do you enforce idempotency in financial transactions APIs?
+
 ============================================================================================================================================
+
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+============================================================================================================================================
+
+
+
