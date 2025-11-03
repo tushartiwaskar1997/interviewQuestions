@@ -310,6 +310,50 @@ A:
 30. How do you enforce idempotency in financial transactions APIs?
 
 ============================================================================================================================================
+Interview in deqode 
+round 1 fri 31 oct 2025
+what are sterio type annotations
+what are java 8 features
+what is restcontrollers ?
+
+
+
+round 2 03 oct 2025
+which java version you are using in your peoject  and why ? 
+whate are the java 8 features?
+whate is optional in java ?
+what is the diffenece between abstarc class and interface ?
+what is collection is java ?
+what is diffence betwwen collections and collection?
+what is the internal working of hashMap ?
+how the hashcoflict is solve? hash collision?
+what are the types of exceprion in java ?
+whate is the differnce between hashset linkhashset,tree set?
+das problem
+     WAP to find the Second highest number from a given array.
+     I/P : {2, 3, 7, 6, 8, -1, -10, 1, -15}
+     O/P : 7
+
+     You are given a list of colors: {Red, Green, Yellow, Red}.
+     Write a Java program to determine which color appears the most number of times in the list.
+
+did u work on microservice ?
+what is api gate way?
+whate is load balancer?
+whate is saga pattern ?
+how micro service connect or communicte ?
+how do u manage the transation in spring boot applications ?
+**whate is the scope of beans ?
+whate is diffence between @quilifer and @transactions?
+
+
+
+
+
+ 
+
+
+
 
 ============================================================================================================================================
 ============================================================================================================================================
