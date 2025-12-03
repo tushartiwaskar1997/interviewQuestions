@@ -1,0 +1,29 @@
+1. How does Kafka handle Backpressure?
+Answer:
+Producers may block or throw buffer exhaustion errors, consumers accumulate lag
+when slow, brokers apply quota-based throttling, and consumers can be scaled
+horizontally to manage throughput.
+
+2. Explain Kafka Log Compaction. When would you use it?
+Answer:
+Log compaction keeps only the latest value per key. It is used for maintaining 
+stateful stores, metadata, and event-sourcing patterns. Older values for the 
+same key are compacted but tombstone markers are retained until cleanup.
+
+3. How does Kafka handle leader election?
+Answer:
+The Kafka Controller elects an in-sync replica as leader. Older versions
+rely on Zookeeper, while newer clusters use KRaft. Unclean leader election
+is disabled by default to prevent data loss.
+
+4. How does exactly-once work in Kafka Streams?
+Answer:
+Kafka Streams uses RocksDB state stores, changelog topics, and transactional 
+writes. The processing.guarantee=exactly_once_v2 configuration provides 
+exactly-once semantics.
+
+5. How do you handle large messages in Kafka?
+Answer:
+Store large payloads in S3 or GCS and send a pointer in Kafka, or increase 
+message.max.bytes and fetch.max.bytes. Directly sending large messages is 
+discouraged because it impacts replication performance.
