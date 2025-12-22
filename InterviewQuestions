@@ -357,6 +357,40 @@ can i overrride the final class method .
 how do u handel the data which is coming from the data base?
 what are restfull api ?
 ============================================================================================================================================
+Hexaware
+
+🔹 Core Java & Collections
+• Difference between == and equals()
+• How does HashMap work internally?
+– hashing, buckets, collision handling
+– what changed after Java 8 (treeification)
+
+🔹 Java 8 – Concepts & Features
+• What features were introduced in Java 8?
+• What is a functional interface? Can you name a few?
+• What is a lambda expression?
+• What is the difference between map() and filter()?
+• Difference between map() and flatMap()
+• What are method references and when would you use them?
+• What is Optional and why was it introduced?
+• How do Streams work internally?
+• Difference between intermediate and terminal operations
+
+🔹 Coding Questions (Java 8 Mandatory)
+1️⃣ Find the 2nd most repeated character in a string
+Example:
+"aaaabbccbdd" → b
+
+2️⃣ Print the series using Java 8 only
+11, 12, 15, 20, 27
+
+3️⃣ Using Java 8, group words by their length
+Example:
+["java", "spring", "boot", "api"]
+Output:
+{3=[api], 4=[java, boot], 6=[spring]}
+
+
 ============================================================================================================================================
 ============================================================================================================================================
 ============================================================================================================================================
